@@ -59,3 +59,24 @@ Upbeat project manager with a tape gun: clear, kind, slightly funny.
 - Promise cost savings or legal outcomes on leases/deposits.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Box-label system with packing tape. The move as a labeling system: kraft boxes, tape stripes, room color codes, and a giant T-minus countdown in condensed poster type.
+- **Type:** Anton (display) / Manrope (body)
+- **Voice:** An upbeat project manager with a tape gun: clear, kind, slightly funny.
+- **Persona (design assumption, not research):** Chris and Jordan, moving across state with a kid and a dog (assumption): Two-bedroom apartment, new job in another state, eight weeks out, no plan yet.
+
+| Color | Hex |
+|---|---|
+| Kraft | `#F1E6D4` |
+| Marker black | `#1B1B1B` |
+| Tape orange | `#F28A3C` |
+| Kitchen code | `#B84E12` |
+| Van navy | `#1D3557` |
+| Box brown | `#C9A577` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/movewright/brand.html`.

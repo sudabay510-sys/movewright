@@ -1,0 +1,36 @@
+/* Movewright identity layer, Nov 2026 refresh: Box-label system with packing tape. Loaded after brand.css; visual only. */
+:root{--bg:#F1E6D4;--bg-alt:#E8D8BE;--card:#FFFDF8;--ink:#1B1B1B;--muted:#5A4B3A;--line:#C9B79C;--accent:#1B1B1B;--accent-2:#000000;--on-accent:#FFFFFF;--hi:#F28A3C;--radius:3px;--focus:#1D3557;
+--font-display:'Anton', 'Arial Narrow', sans-serif;--font-body:'Manrope', system-ui, sans-serif;--tracking:0.005em;--cta-band-bg:#1D3557;--cta-band-ink:#FFFFFF;--cta-band-btn:#F28A3C;--cta-band-btn-ink:#1B1B1B;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2,.logo span,.amount{text-transform:uppercase;font-weight:400;letter-spacing:.01em}
+h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.95}
+h3{font-family:var(--font-body);font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:1rem}
+.site-header{background:var(--bg);border-bottom:0}
+.site-header::after{content:"";display:block;height:14px;background:linear-gradient(90deg,transparent 0 8%,rgba(242,138,60,.85) 8% 92%,transparent 92%);opacity:.9}
+.hero{background:repeating-linear-gradient(90deg,rgba(90,75,58,.05) 0 2px,transparent 2px 9px),var(--bg)}
+.hero-card,.plan-section,.price-card,.feature,.pill-card,.steps li,.journey-card,.faq-item{background:var(--card);border:3px solid var(--ink);border-radius:3px;box-shadow:none}
+.hero-card{padding-top:3rem}
+.hero-card::before{content:"THIS SIDE UP ↑";position:absolute;top:0;left:0;right:0;background:var(--ink);color:#FFFFFF;font:800 .72rem var(--font-body);letter-spacing:.2em;padding:.45rem 1rem}
+.dot{border-radius:0;background:#F28A3C;width:.8rem;height:.8rem}
+.choice{border:3px solid var(--ink);border-radius:3px;background:var(--card)}
+.choice:has(input:checked){background:#FCE3CF;box-shadow:inset 8px 0 0 #F28A3C}
+.progress{height:1rem;border:3px solid var(--ink);border-radius:0;background:var(--card)}.progress-bar{background:#F28A3C}
+.plan-preview,.plan-full,.plan-locked{counter-reset:box}
+.plan-section{counter-increment:box;position:relative;padding-top:2.75rem}
+.plan-section::before{content:"BOX " counter(box);position:absolute;left:0;top:0;background:#1D3557;color:#FFFFFF;font:800 .75rem var(--font-body);letter-spacing:.16em;padding:.4rem .8rem}
+.step-num,.journey-step{background:#F28A3C;color:var(--ink);border-radius:0;font-family:var(--font-display);font-weight:400}
+.btn{border-radius:3px;text-transform:uppercase;letter-spacing:.06em;font-weight:800}
+.btn-primary{box-shadow:4px 4px 0 #F28A3C}
+.lock-banner{border:3px dashed var(--ink);background:#FFFDF8;border-radius:3px}
+.safety{background:#FCE3CF;border-color:var(--ink);border-left-color:#B84E12}

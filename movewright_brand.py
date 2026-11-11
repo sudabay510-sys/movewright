@@ -97,7 +97,7 @@ BRAND = {
     ],
     "disclaimer_short": "Checklist planning only. We don’t book movers, guarantee costs, or give legal advice about leases.",
     "disclaimer_long": "Movewright provides general moving-planning checklists. It does not book or recommend specific movers, guarantee costs or timelines, or give legal advice about leases, contracts, or deposits. Verify mover licensing and official requirements yourself. No payments are processed on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap",
     "fonts": ("Bricolage Grotesque", "Manrope"),
     "questions": Q, "generate_plan": plan,
     "voice": "Upbeat project manager with a tape gun: clear, kind, slightly funny.",
