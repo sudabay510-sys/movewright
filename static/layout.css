@@ -1,0 +1,18 @@
+/* movewright layout compositions (phase 2). Loaded after identity.css. */
+.mw-tminus{font:400 clamp(4rem,10vw,7rem)/1 var(--font-display);margin:0 0 .5rem;color:var(--ink)}
+.mw-codes{list-style:none;padding:0;margin:0 0 .75rem;display:grid;grid-template-columns:repeat(5,1fr);gap:.75rem}
+.mw-codes li{background:var(--card);border:3px solid var(--ink);padding:1rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:.9rem;display:flex;gap:.6rem;align-items:center}
+.mw-codes .c{display:grid;place-items:center;width:2.2rem;height:2.2rem;color:#fff;font:400 1.2rem var(--font-display);flex:none}
+.mw-boxes .journey-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.mw-boxes .journey-card{border:3px solid var(--ink);border-radius:3px;padding-top:2.6rem;position:relative}
+.mw-boxes .journey-step{position:absolute;top:0;left:0;border-radius:0;margin:0;background:#1D3557;color:#fff;width:auto;height:auto;padding:.35rem .8rem;font-size:.75rem}
+.mw-qlabel{display:flex;align-items:center;gap:1rem;background:var(--card);border:3px solid var(--ink);padding:.5rem .9rem;font:400 1.3rem var(--font-display);letter-spacing:.04em;margin-bottom:.75rem;position:relative}
+.mw-tape{flex:1;height:18px;background:rgba(242,138,60,.85)}
+.page-quiz .tiny.muted{display:none}
+.mw-ship{border:3px solid var(--ink);background:var(--card);margin-bottom:1.5rem}
+.mw-ship-h{display:flex;justify-content:space-between;background:var(--ink);color:#fff;font:800 .78rem var(--font-body);letter-spacing:.2em;padding:.55rem 1rem}
+.mw-ship-b{padding:1.5rem;background:linear-gradient(90deg,transparent calc(100% - 26px),rgba(242,138,60,.85) calc(100% - 26px))}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1}
+.mw-box{margin:0}
+@media (max-width:860px){.mw-codes{grid-template-columns:1fr 1fr}}
